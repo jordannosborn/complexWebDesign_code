@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav_btn"><img src="img/hamburger.png" alt="hamburger menu icon"></a>
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="offerings.html">Offerings</a>
+          <a href="values.html">Values</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </nav>
+
+      <div class="logo">
+          <a href="index.html"><img src="img/gelosLogo.png" alt="Gelos Enterprises Logo"></a>
+      </div>
+
+      <div class="search">
+          <input type="text" placeholder="Search..">
+      </div>
+    </header>
+
+
+  <!-- Carousel -->
+  <div class="content">
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden" aria-label="left arrow button">
+          <img src="img/left.svg" alt="left pointing arrow">
+        </button>
+
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+
+              <div class="carousel__text">
+                <h1>Improving operations through Gelos products & services</h1>
+                <a href="caseStudy.html">Read More</a>
+              </div>
+
+              <img class="carousel__image" src="img/handshake.jpg" alt="code on computer screen">
+
+            </li>
+
+            <li class="carousel__slide">
+              
+              <div class="carousel__text">
+                <h1>Solving business problems</h1>
+                <a href="caseStudy.html">Know more</a>
+              </div>
+
+              <img class="carousel__image" src="img/code.jpg" alt="two business men shaking hands">
+
+            </li>
+          </ul>
+        </div>
+
+        <button class="carousel__button carousel__button--right" aria-label="right arrow button">
+          <img src="img/right.svg" alt="right pointing arrow">
+        </button>
+
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide" aria-label="carousel indicator button"></button>
+          <button class="carousel__indicator" aria-label="carousel indicator button"></button>
+      </div>
+    </div>
+
+    <!-- Company offerings -->
+      <h1>Company Offerings</h1>
+
+          <button class="accordion"><img src="img/transform.png" alt="icon of two interlocking arrows">Digital Transformation<span>+</span></button>
+              <div class="panel">
+                  <p>To help our clients leverage the state-of-art technologies, we provide a tailored approach to enable change in the digital space. Our prior works include developing mobile applications, website applications, and organisation software development, among other digital capabilities.</p>
+                  <p>To know more, <a href="contact.html">contact us.</a></p>
+              </div>
+
+          <button class="accordion"><img src="img/cloud.png" alt="cloud icon">Cloud Services<span>+</span></button>
+              <div class="panel">
+                  <p>Our Cloud programs include a range of services from full application development platforms to servers, storage, and virtual desktops. </p>
+                  We offer the following: <br>
+                      <ul>
+                          <li>Software as a service (SaaS)</li>
+                          <li>Platform as a service (PaaS)</li>
+                          <li>Infrastructure as a service (IaaS)</li>
+                      </ul>
+              </div>
+
+          <button class="accordion"><img src="img/ai.png" alt="icon of brain with cogs">Artificial intelligence<span>+</span></button>
+              <div class="panel">
+                  <p>Artificial intelligence services at Gelos can help you drive smart evolution of your workflows, technology and the entire organisation. Our industry experts help you implement a data-first strategy, augment with third-party sources, and operationalise and accelerate AI integration across your enterprise to generate positive business growth.</p>
+              </div>
+
+    <!-- Values -->
+    <div class="values"><h1>Company Values</h1>
+      <article>
+          <div>
+              <img src="img/integrity.png" alt="hand with floating heart" width="70px" height="60px"> 
+              <h1>Integrity</h1>
+              <p> We are committed to our values and protect our company at an organisational level.</p>
+          </div>
+  
+          <div>
+                  <img src="img/hand-shake.png" alt="hand shake icon" width="70px"> 
+                  <h1>Inclusivity</h1>
+              <p>We strongly believe in diversity as the core of our growth. Our policies hold zero tolerance towards discrimination.</p>
+          </div>
+  
+          <div>
+              <img src="img/innovation.png" alt="hand shake icon" width="70px"> 
+              <h1>Innovation</h1>
+              <p>Innovation is one of our core values. Our culture imbibes curiosity, technological ingenuity and adaptability.</p>
+          </div>
+      </article>  
+  </div>
+
+    <!-- Footer -->
+    <footer>    
+      <div class="contact">
+        <h1>Contact Us</h1>
+        <div class="column">
+          
+          <p>Email: gelosenterprises@gmail.com</p>
+          <p>Phone: 555-555</p>
+          <p>Address: 123 Gelos lane</p>      
+
+          <h3>Enquire here</h3>
+        </div>
+        <div class="column">
+          <form>
+              <div>
+                  <label for="name">Name: </label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+
+              <div>
+                  <label for="phone">Phone number: </label>
+                  <input type="text" id="phone" name="phone" required>
+              </div>
+
+              <div>
+                  <label for="message">Leave us a message: </label>
+                  <input type="text" id="message" name="message" required> 
+              </div>
+              <div>
+                <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</footer>
+
+
+  <script src="js/carousel.js"></script>
+  <script src="js/accordian.js"></script>
+</body>
+</html>
